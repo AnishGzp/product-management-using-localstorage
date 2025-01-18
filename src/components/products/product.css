@@ -139,3 +139,44 @@ td {
     }
   }
 }
+
+@media screen and (max-width: 450px) {
+  .product {
+    padding: 10px 6px;
+
+    .product-head,
+    .product-button,
+    .product-container {
+      width: 100%;
+    }
+    .product-container {
+      form {
+        width: 100%;
+      }
+
+      .show-product {
+        width: 100%;
+        padding: 5px;
+        overflow-x: scroll;
+      }
+
+      .search {
+        width: 100%;
+
+        input {
+          width: 100%;
+        }
+      }
+    }
+
+    .product-head {
+      button {
+        padding: 10px 20px;
+      }
+    }
+  }
+
+  button {
+    padding: 5px 10px;
+  }
+}
